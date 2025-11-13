@@ -1,0 +1,58 @@
+/* Custom styles */
+.section-intro {
+  position: relative;
+  height: 70vh;
+  background-image: url("./images/03.avif");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.section-intro .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.section-intro h1 {
+  font-size: 3rem;
+  z-index: 1;
+}
+
+.about-section {
+  background-color: #f8f9fa;
+}
+
+.btn-primary {
+  background-color: #6c757d; /* custom color */
+  border-color: #6c757d;
+}
+
+.btn-primary:hover {
+  background-color: #5a6268;
+  border-color: #545b62;
+}
+
+/* Responsive adjustments */
+@media (max-width: 576px) {
+  .section-intro {
+    height: 50vh;
+  }
+  .section-intro h1 {
+    font-size: 2rem;
+  }
+}
+
+.carousel-inner > .carousel-item > img {
+  max-height: 400px;     /* set your desired height */
+  object-fit: cover;     /* keeps image well-scaled */
+  width: 100%;
+}
+
