@@ -40,6 +40,7 @@ for(var i =0;i<operator.length;i++){
 				printOutput(output);
 			}
 		}
+		
 		else{
 			var output=getOutput();
 			var history=getHistory();
